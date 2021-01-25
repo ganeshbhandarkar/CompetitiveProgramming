@@ -29,7 +29,7 @@ double eps = 1e-12;
 
 void solve(){
  int n;cin>>n;cout<<n;
- 
+    
 }
 int main()
 {
