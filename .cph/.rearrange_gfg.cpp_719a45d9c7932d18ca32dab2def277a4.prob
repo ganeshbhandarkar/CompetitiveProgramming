@@ -1,1 +1,0 @@
-{"name":"Local: rearrange_gfg","url":"c:\\Users\\KIIT\\Documents\\CompetitiveProgramming\\rearrange_gfg.cpp","tests":[{"id":1611664633224,"input":"1\n5\n4 3 2 1 0","output":"0 1 2 3 4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\KIIT\\Documents\\CompetitiveProgramming\\rearrange_gfg.cpp","group":"local","local":true}
