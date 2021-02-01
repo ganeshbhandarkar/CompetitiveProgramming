@@ -1,23 +1,7 @@
 # CompetitiveProgramming
 All My Solutions
 
-  `----------------`                                                                    `:          
-  `---------------h.                         -//+++++oy/                               `yd.         
-                  h.                         `        `yh`                            -h+           
-            -/o++/d+///-`                     -/        dd/+.                       `sy.            
-         .os/`    h.   `:::`                  h-        .M/+s                      .dy//++          
-        os.  -+o++d+/:-    ::               `hs:-y       oNs`                      --`-ss-          
-       s+  .y+` .-h:` `:/`  .o                 .o:       `No                        :hs.            
-      -y   h- -y+-h::/.  o.  .o             .//:          oN:+-                   -hs.              
-      :o  `h  s-  h./.y` `s   y`            s+::::+:      -M:so                  :Ny/::ss           
-      `s   /: `///dsy-h. .h   h.            `.`   `m`      Nd/                    `  /y+`           
-       -+   .::-``h//y/  y/  .h                    d`      dh                      +h/              
-        `/:    .::d/.  :y/  `h-                   -y       hd                    :hs`               
-          `::::-..h//os/`  :h-                   .d.       hd                   sm:                 
-              `.-:h/.   `/y+`                   +h.        my                 `yd.                  
-                  h/:/+oo:                  ./sy/         :M-                 :m:                   
-                  .-.`                       .`           d/                   /`                   
-                                                                                                    
+### Just Started With CP 
 
 #############################
 
