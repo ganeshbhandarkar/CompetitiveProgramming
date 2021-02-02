@@ -1,0 +1,23 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+using ll = long long; 
+using vi = vector<int>; 
+using pii = pair<int,int>; 
+#define f first
+#define s second
+#define eb emplace_back
+#define IO(NAME) cin.tie(0)->sync_with_stdio(0); if(fopen(NAME ".in", "r")) freopen(NAME ".in", "r", stdin), freopen(NAME ".in", "w", stdout); 
+
+int main() {
+    IO("");
+    int n;cin>>n;
+    int a=0,e=0;
+    string s;
+    cin >> s;
+    for(int i=0;i<s.length();++i){
+        if(s[i]=='A')++a;
+        else ++e;
+    }
+    cout<<((a>e) ? "Anton" : ((e>a) ? "Danik" : "Friendship"));
+}
