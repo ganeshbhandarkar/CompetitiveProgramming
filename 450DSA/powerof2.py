@@ -1,6 +1,13 @@
 # https://www.geeksforgeeks.org/program-to-find-whether-a-no-is-power-of-two/
 #User function Template for python3
 
+# bool isPowerOfTwo(int n)
+# {
+#    if(n==0)
+#    return false;
+ 
+#    return (ceil(log2(n)) == floor(log2(n)));
+# }
 
 ##Complete this function
 def isPowerofTwo(n):
