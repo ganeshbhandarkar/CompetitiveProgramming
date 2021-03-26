@@ -35,7 +35,33 @@
 		for(int t=1;t<=T;t++)
 		{
 			ll ans=0;
-			
+			int a,b;
+			cin>>a>>b;
+			string s;cin>>s;
+			//s = 'a' + s;
+			int cnt = 0,cntno=0;
+			for(int i=0,j=a-1;i<j;i++,j--){
+				if(s[i]!=s[j]) cnt++;
+				//else cntno++;
+				// if(s[i] != s[a-i+1]){
+				// 	// cout<<s[i]<<s[a-i+1]<<endl;
+				// 	cnt++;
+				// }else{
+				// 	cntno++;
+				// 	cout<<cntno<<endl;
+				// }
+			}
+			if(cnt == b){
+				ans = 0;
+				//cout<<"true"<<endl;
+			}else{
+				if(b > cnt){
+					ans = abs(b - cnt);
+				}else{
+					ans = abs(cnt - b);
+				}
+				
+			}
 			cout<<"Case #"<<t<<": "<<ans<<endl;
 		}
 
