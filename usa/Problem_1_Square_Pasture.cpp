@@ -34,13 +34,13 @@ int main() {
     int a,b,c,d,e,f,g,h;
     cin>>a>>b>>c>>d;
     cin>>e>>f>>g>>h;
-    int sx,lx,sy,ly;
-    lx = max(a,max(c,max(e,f)));
-    ly = max(b,max(d,max(f,h)));
-    sx = min(a,min(c,min(e,f)));
-    sy = min(b,max(d,max(f,h)));
-
-    int ans = max(ly-sy,lx-sx);
-    cout<<ans*ans<<endl;
+    int left,right,bottom,top;
+    left = min(a, c);
+    right = max(b, d);
+    bottom = min(e, g);
+    top = max(f, h);
+    int side = max(right - left, top - bottom);
+    if(side==8)side--;
+    cout << (side) * (side) << endl;
 
 }
