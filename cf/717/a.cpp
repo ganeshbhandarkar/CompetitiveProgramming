@@ -1,3 +1,4 @@
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -11,16 +12,6 @@ using pii = pair<int,int>;
 
 int main() {
     IO("");
-    int n,k;cin>>n>>k;
-    vector<int> a;
-    int cnt =0;
-    for(int i=0;i<n;i++){
-    	int x;cin>>x;
-    	a.eb(x);
-    }
-    for(int i=0;i<v.size();i++){
-    	
-    }
-    cout<<cnt<<endl;
+    
+    
 }
-

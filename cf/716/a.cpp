@@ -1,3 +1,4 @@
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -11,16 +12,20 @@ using pii = pair<int,int>;
 
 int main() {
     IO("");
-    int n,k;cin>>n>>k;
-    vector<int> a;
-    int cnt =0;
-    for(int i=0;i<n;i++){
-    	int x;cin>>x;
-    	a.eb(x);
+    /*   श्री छोटे बाबा   */
+    int t;
+    cin>>t;
+    while(t--){
+    	int n;cin>>n;
+    	int p=0,np=0;
+    	int a[n];
+    	for(int i=0;i<n;i++){
+    		cin>>a[i];
+    		int nn = sqrt(a[i]);
+    		if(nn*nn == a[i]) p++;
+    		else np++;
+    	}
+    	if(np>0)cout<<"YES"<<endl;
+    	else cout<<"NO"<<endl;
     }
-    for(int i=0;i<v.size();i++){
-    	
-    }
-    cout<<cnt<<endl;
 }
-
